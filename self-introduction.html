@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>自己紹介 - 早木慧太</title>
+</head>
+<body>
+    <h1>自己紹介</h1>
+    <h2>プロフィール</h2>
+    <p>名前 早木慧太</p>
+    <p>年齢 25</p>
+    <p>出身地 千葉県</p>
+    <p>趣味 読書 動画鑑賞</p>
+    <h2>好きなもの</h2>
+    <p>
+        <ul>
+            <li>肉</li>
+            <li>スシ</li>
+            <li>リンゴジュース</li>
+        </ul>
+    </p>
+    <h2>今年の目標</h2>
+    <p>
+        <ul>
+            <ol>プログラミングを身に着ける</ol>
+            <ol>平日の学習を習慣にする</ol>
+            <ol>体調管理の徹底</ol>
+        </ul>
+    </p>
+    <h2>リンク</h2>
+    <a href="https://github.com/dashboard" target="_blank">私のGitHub</a>
+    <h2>好機な風景</h2>
+    <p>
+        <img src="landscape.jpg" alt="好きな風景" width="400"
+    </p>
+    <h2>お問い合わせ</h2>
+    <p>
+        <form action="/submit" method="POST">
+            <label for="name">お名前：</label>
+            <input type="text" id="name" name="name" required>
+        </form>
+    </p>
+    <p>
+        <label for="type">お問い合わせ種別：</label>
+        <select id="type" name="category">
+            <option value="">-- 選択してください --</option>
+            <option value="general">一般的なお問い合わせ</option>
+            <option value="opinion">ご意見・ご要望</option>
+        </select>
+    </p>
+    <p>
+        <label for="message">お問い合わせ内容：</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </p>
+    <p>
+        <input type="submit" value="送信する"
+    </p>
+</body>
+</html>
